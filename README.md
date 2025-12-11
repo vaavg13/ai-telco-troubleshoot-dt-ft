@@ -15,5 +15,5 @@ Launch two processes on one node with OpenMP threads capped at 4:
 
 Evaluation
 ----------
-Runs greedy generation against the test split and reports accuracy for untrained model.
-- `python eval_qwen.py`
+Runs greedy generation against the test split and reports accuracy for checkpoint.
+- `python eval_qwen.py --model-path`
